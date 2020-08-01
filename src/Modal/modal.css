@@ -12,8 +12,8 @@
   position: absolute;
   left: 23%;
   top: 10%;
-  width: 37%;
-  height: 50%;
+  width: 50%;
+  height: 80%;
   padding: 20px;
   border-radius: 5px;
   border: 2px solid black;
@@ -28,11 +28,54 @@
   cursor: pointer;
 }
 
-.download {
+
+.datepicker-container {
   display: flex;
   justify-content: flex-end;
-  padding-right: 30px;
-  font-size: 20px;
-  margin: 5px;
-  cursor: pointer;
+}
+
+.date-picker {
+  width: 200px;
+  padding: 7px;
+  border: 2px solid #80808047;
+  border-radius: 11px;
+  outline: none;
+}
+
+.react-datepicker {
+  right: 16px;
+}
+
+.react-datepicker-wrapper {
+  margin-right: 50px;
+    margin-top: 3px;
+}
+
+table {
+    width: 100%;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    color: #212529;
+    border-collapse: collapse;
+    margin-left: auto!important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    text-align: center;
+}
+
+tr {
+  border: 0.1px solid;
+  border-color: #80808047;
+}
+
+td {
+  padding: 10px;
+}
+
+tr:nth-of-type(even) {
+  background-color: rgba(0,0,0,.05);
+}
+
+th {
+  padding: 10px;
+  background-color: #008b8b6b;
 }

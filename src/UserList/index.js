@@ -9,7 +9,7 @@ function UserList() {
 
   async function getUserData() {
     const response = await fetch(
-      "https://api.jsonbin.io/b/5f24f9bb6f8e4e3faf2823f2"
+      "https://api.jsonbin.io/b/5f24f9bb6f8e4e3faf2823f2/3"
     );
     const data = await response.json();
     setUserList(data.members);
